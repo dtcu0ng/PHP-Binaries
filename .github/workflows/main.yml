@@ -14,7 +14,7 @@ concurrency:
 jobs:
   macos:
     name: MacOS (PM ${{ matrix.pm-version-major }})
-    runs-on: macos-latest-large
+    runs-on: macos-latest-xl
     strategy:
       matrix:
         pm-version-major: [ 4, 5 ]
